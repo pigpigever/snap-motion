@@ -1,14 +1,14 @@
 {
-  "name": "@snap-motion/plugin",
+  "name": "snap-motion",
   "version": "0.0.1",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "run:vue": "pnpm --filter @snap-motion/vue dev",
-    "build:vue": "pnpm --filter @snap-motion/vue build",
+    "run:vue": "pnpm --filter snap-motion/vue dev",
+    "build:vue": "pnpm --filter snap-motion/vue build",
     "tag:version": "pnpm changeset version",
-    "release": "pnpm changeset publish"
+    "release": "pnpm changeset publish --"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.0",

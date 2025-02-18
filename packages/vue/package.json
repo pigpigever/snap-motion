@@ -1,5 +1,5 @@
 {
-  "name": "@snap-motion/vue",
+  "name": "snap-motion/vue",
   "version": "0.0.1-beta.0",
   "main": "dist/index.min.js",
   "module": "esm/index.js",
