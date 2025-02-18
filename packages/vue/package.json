@@ -16,6 +16,13 @@
     "lib",
     "dts"
   ],
+  "keywords": [
+    "snap",
+    "motion",
+    "vue",
+    "snap-motion",
+    "vue-snap-motion"
+  ],
   "publishConfig": {
     "access": "public"
   },
