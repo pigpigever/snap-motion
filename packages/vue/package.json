@@ -17,7 +17,7 @@
     "lib",
     "dts"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^3.5.13"
   },
   "devDependencies": {
