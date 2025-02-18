@@ -1,7 +1,7 @@
-# snap-motion/vue
+# vue-snap-motion
 
 ## 0.0.1-beta.0
 
 ### Patch Changes
 
-- Initial snap-motion/vue
+- Initial vue-snap-motion

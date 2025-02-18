@@ -23,6 +23,6 @@
     "storybook": "^8.5.6"
   },
   "dependencies": {
-    "snap-motion/vue": "workspace:^"
+    "vue-snap-motion": "workspace:^"
   }
 }

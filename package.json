@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "run:vue": "pnpm --filter snap-motion/vue dev",
-    "build:vue": "pnpm --filter snap-motion/vue build",
+    "run:vue": "pnpm --filter vue-snap-motion dev",
+    "build:vue": "pnpm --filter vue-snap-motion build",
     "tag:version": "pnpm changeset version",
     "release": "lerna publish"
   },
