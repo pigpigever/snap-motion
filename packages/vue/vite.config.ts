@@ -18,12 +18,13 @@ export default defineConfig({
       external: ['vue'], // 外部依赖
       output: [
         {
-          format: 'es',
+          format: 'esm',
           dir: 'esm',
-          entryFileNames: 'snap-motion.esm.js',
+          entryFileNames: '[name].js',
           esModule: true,
           compact: true,
           preserveModules: true,
+          preserveModulesRoot: 'src'
         },
         {
           format: 'umd',
