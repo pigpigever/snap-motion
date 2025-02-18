@@ -9,7 +9,7 @@
     "run:vue": "pnpm --filter @snap-motion/vue dev",
     "build:vue": "pnpm --filter @snap-motion/vue build",
     "tag:version": "pnpm changeset version",
-    "release": "pnpm publish"
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.0",
