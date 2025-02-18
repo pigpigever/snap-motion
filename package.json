@@ -6,10 +6,12 @@
   ],
   "scripts": {
     "run:vue": "pnpm --filter @snap-motion/vue dev",
-    "build:vue": "pnpm --filter @snap-motion/vue build"
+    "build:vue": "pnpm --filter @snap-motion/vue build",
+    "tag:version": "pnpm changeset version",
+    "publish": "pnpm publish"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@changesets/cli": "^2.28.0",
     "lerna": "^8.1.9"
   }
 }

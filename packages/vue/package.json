@@ -1,7 +1,7 @@
 {
   "name": "@snap-motion/vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/index.min.js",
   "module": "esm/index.js",
   "lib": "lib/index.js",
